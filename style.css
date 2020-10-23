@@ -1,0 +1,62 @@
+/* setting to default value */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* body part of the website */
+body {
+  background-color: fca311;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+/* title */
+#title {
+  font-family: "Fredericka the Great", cursive;
+  font-weight: 500;
+  margin-top: 3rem;
+}
+/* main container */
+#main_container {
+  min-width: 35vw;
+  position: absolute;
+  border: 1px solid black;
+  box-shadow: 1px 1px 10px 10px black;
+}
+
+/* loader */
+#loader {
+  display: none;
+  position: absolute;
+  margin: 1.5rem;
+  font-family: "Turret Road", cursive;
+  font-size: 2rem;
+}
+
+/* ip address & country */
+#ip_address,
+#country {
+  margin: 1.5rem;
+  font-family: "Turret Road", cursive;
+  color: #fff;
+  font-size: 1.5em;
+}
+/* button */
+#btn {
+  padding: 0.5em;
+  font-size: 1.2rem;
+  font-family: "Turret Road", cursive;
+  min-width: 80%;
+  margin: 1rem;
+}
+
+@media (max-width: 300px) {
+  #ip_address,
+  #country {
+    font-size: 1rem;
+    color: red;
+  }
+}
