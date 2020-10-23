@@ -1,3 +1,3 @@
 # IP-FInder
 
-This is a application for finding the IP address.
+This application is for finding the IP address.
